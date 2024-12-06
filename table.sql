@@ -113,7 +113,7 @@ INSERT INTO gpus (name, manufacturer, memory_size, core_clock, memory_clock, rel
 ('Radeon RX 6750 XT', 'AMD', 12288, 2150, 2250, '2022-05-10', 549.99),
 -- NVIDIA GPUs
 ('GeForce RTX 4090', 'NVIDIA', 24576, 2235, 1313, '2022-10-12', 1599.99),
-('GeForce RTX 4080', 'NVIDIA', 16384, 2205, 1400, '2022-11-16', 1199.99),
+('GeForce RTX 4080', 'NVIDIA', 16384, 2205, 1400, '2022-11-16', 1199.99);
 
 INSERT INTO gpus (name, manufacturer, memory_size, core_clock, memory_clock, release_date, price) VALUES
 -- AMD GPUs
