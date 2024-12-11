@@ -1,6 +1,6 @@
+CREATE USER 'grafikk'@'localhost' IDENTIFIED BY 'kort';
 
-
-GRANT ALL PRIVILEGES ON books.authors  TO 'gpu'@'localhost';
+GRANT ALL PRIVILEGES ON grafikkort  TO 'grafikk'@'localhost';
 
 CREATE TABLE gpus (
     id INT AUTO_INCREMENT PRIMARY KEY,
