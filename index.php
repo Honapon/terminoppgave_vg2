@@ -24,6 +24,7 @@ try {
 </head>
 <body>
 <div class="navbar" >
+  <a href="index.php"><img src="logo.png" alt="logo, pixelert grafikkort"></a>
 <h1>aaa</h1>
 <a class="linkknappting" href="brukerstotte.html">forklaringer</a>
 </div>
