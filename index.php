@@ -25,7 +25,7 @@ try {
 <body>
 <div class="navbar" >
 <h1>aaa</h1>
-<a href="brukerstotte.html">forklaringer</a>
+<a class="linkknappting" href="brukerstotte.html">forklaringer</a>
 </div>
 
 <div class="content" >
