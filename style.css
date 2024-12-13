@@ -1,6 +1,4 @@
-
-
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -12,7 +10,7 @@
     position: fixed;
     width: 100%;
 
-  
+
     .linkknappting {
         border: solid;
         border-color: beige;
@@ -26,12 +24,12 @@
         color: black;
         border-color: beige;
         background-color: beige;
-        
+
     }
-    
+
 }
 
-img{
+img {
     width: 10vh;
     height: 5vh;
 }
@@ -58,11 +56,23 @@ a {
     font-style: normal;
 }
 
-.content{
-    background-color: #f2f2f2;
+.content {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 7%;
+
+    font-family: "quicksand", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 250%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin: 0px;
-}
+    margin: auto;
 
+
+
+
+
+}
