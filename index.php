@@ -23,7 +23,18 @@ try {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="navbar" >
+<h1>aaa</h1>
+<a href="brukerstotte.html">forklaringer</a>
+</div>
 
+<div class="content" >
+
+</div>
+
+<div class="footer" >
+
+</div>
     
 </body>
 </html>
