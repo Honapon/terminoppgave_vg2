@@ -4,7 +4,7 @@ img {
 }
 
 h1 {
-    color: beige;
+    color: #FEFEF4;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -16,7 +16,7 @@ h1 {
 }
 
 a {
-    color: beige;
+    color: #FEFEF4;
 
     padding: 10px;
     text-decoration: none;
@@ -46,7 +46,7 @@ body{
 
     .linkknappting {
         border: solid;
-        border-color: beige;
+        border-color: #FEFEF4;
         border-radius: 10px;
         border-width: 4px;
         margin: 20px;
@@ -55,8 +55,8 @@ body{
     .linkknappting:hover {
         border: solid;
         color: black;
-        border-color: beige;
-        background-color: beige;
+        border-color: #FEFEF4;
+        background-color: #FEFEF4;
 
     }
 
