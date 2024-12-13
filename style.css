@@ -66,8 +66,8 @@ body{
 .content {
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     padding-top: 7%;
 
     font-family: "quicksand", sans-serif;
