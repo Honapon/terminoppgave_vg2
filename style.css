@@ -12,13 +12,7 @@
     position: fixed;
     width: 100%;
 
-    #logo {
-        width:
-            20vw;
-        height: 2vh;
-
-    }
-
+  
     .linkknappting {
         border: solid;
         border-color: beige;
@@ -35,6 +29,11 @@
         
     }
     
+}
+
+img{
+    width: 100vh;
+    height: 5vh;
 }
 
 h1 {
