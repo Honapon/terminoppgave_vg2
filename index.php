@@ -1,4 +1,5 @@
 <?php
+//koble webserver til database
 $servername = "localhost";
 $username = "grafikk";
 $password = "kort";
