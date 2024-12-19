@@ -13,11 +13,16 @@ try {
 }
 
 $result = $mysqli->query(
-    "SELECT name FROM gpus"
+    "SELECT id, name, manufacturer, memory_size, core_clock, memory_clock, release_date, price FROM gpus"
 );
 
 while($row = $result->fetch_assoc()){
-  echo $row["name"]."\n";
+  $gpu[] = $row;
+}
+
+
+foreach($gpu as $gpua){
+  echo $gpua['name'];
 }
 ?>
 
