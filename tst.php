@@ -13,17 +13,18 @@ if ($conn->connect_error) {
 
 $sql = "SELECT * FROM gpus";
 $result = $conn->query($sql);
-
+echo "<table>";
 if ($result->num_rows > 0) {
   // output data of each row
-  echo "<table>";
+  
   while($row = $result->fetch_assoc()) {
     echo "id: " . $row["id"] . $row["manufacturer"]. " " . $row["price"]. "<br>";
   }
-  echo "</table>";
+ 
 } else {
   echo "0 results";
 }
+echo "</table>";
 $conn->close();
 ?>
 <!DOCTYPE html>
