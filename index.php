@@ -12,18 +12,7 @@ try {
   echo "Connection failed: " . $e->getMessage();
 }
 
-$result = $mysqli->query(
-    "SELECT id, name, manufacturer, memory_size, core_clock, memory_clock, release_date, price FROM gpus"
-);
 
-while($row = $result->fetch_assoc()){
-  $gpu[] = $row;
-}
-
-
-foreach($gpu as $gpua){
-  echo $gpua['name'];
-}
 ?>
 
 
