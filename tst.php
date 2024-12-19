@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <table>
 
 <?php
 $servername = "localhost";
@@ -23,7 +23,7 @@ if ($conn->connect_error) {
 
 $sql = "SELECT * FROM gpus";
 $result = $conn->query($sql);
-echo "<table>";
+
 if ($result->num_rows > 0) {
   // output data of each row
   
@@ -34,8 +34,9 @@ if ($result->num_rows > 0) {
 } else {
   echo "0 results";
 }
-echo "</table>";
+
 $conn->close();
 ?>
+</table>
 </body>
 </html>
