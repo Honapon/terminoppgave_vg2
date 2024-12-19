@@ -11,6 +11,14 @@ try {
 } catch (PDOException $e) {
   echo "Connection failed: " . $e->getMessage();
 }
+
+$result = $mysqli->query(
+    "SELECT name FROM gpus"
+);
+
+while($row = $result->fetch_assoc()){
+  echo $row["name"]."\n";
+}
 ?>
 
 

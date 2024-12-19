@@ -16,6 +16,8 @@ Denne uken ble brukt til å starte på terminoppgaven igjen. jeg har klart å se
 
 
 
+
+
 ## refleksjon over perioden
 
 #### hva kunne jeg ha gjort bedre?
